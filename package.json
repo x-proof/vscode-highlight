@@ -3,6 +3,10 @@
   "displayName": "X-Proof",
   "description": "Syntax highlighting for X-Proof language.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x-proof/vscode-highlight"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
