@@ -1,19 +1,20 @@
 {
   "name": "x-proof",
   "displayName": "X-Proof",
-  "description": "X-Proof language support.",
+  "description": "Syntax highlighting for X-Proof language.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.70.0"
   },
+  "publisher": "Zecyel",
   "categories": [
     "Programming Languages"
   ],
   "contributes": {
     "languages": [{
       "id": "x-proof",
-      "aliases": ["X-Proof", "x-proof"],
-      "extensions": [".xp"],
+      "aliases": ["X-Proof", "x-proof", "xp"],
+      "extensions": [".xp", ".xproof", ".xprf"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
