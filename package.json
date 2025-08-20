@@ -1,0 +1,25 @@
+{
+  "name": "x-proof",
+  "displayName": "X-Proof",
+  "description": "X-Proof language support.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "x-proof",
+      "aliases": ["X-Proof", "x-proof"],
+      "extensions": [".xp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "x-proof",
+      "scopeName": "source.xp",
+      "path": "./syntaxes/x-proof.tmLanguage.json"
+    }]
+  }
+}
